@@ -1,0 +1,11 @@
+.contact{
+    background-image: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.3), transparent);
+}
+.parallax3{
+    background-image: url('../../../image/my-blog/sign.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}

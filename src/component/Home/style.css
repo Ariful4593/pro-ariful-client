@@ -1,0 +1,111 @@
+.head-body{
+    background-image: url("images/bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: linear-gradient(black, #ff1f1f00); */
+}
+.my-details{
+    height: 500px;
+    margin-top: 25%;
+}
+.my-details h2,h1,p{
+    text-align: center;
+    
+}
+.services .card{
+    border: none;
+}
+.parallax{
+    background-image:
+    linear-gradient(#00000108,#00000078),
+    linear-gradient(#00000078,#00000078),
+    url('../../image/me1.JPG');
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.parallax2{
+    background-image:
+    linear-gradient(#00000108,#00000078),
+    linear-gradient(#00000078,#00000078),
+    url("images/filter/city.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact{
+    background-image: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.3), transparent);
+}
+.parallax3{
+    background-image: url("images/my-blog/sign.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
