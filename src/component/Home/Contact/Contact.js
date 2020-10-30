@@ -6,7 +6,7 @@ import { useForm } from "react-hook-form";
 const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
-        fetch('http://localhost:4000/contact', {
+        fetch('https://blooming-savannah-69825.herokuapp.com/contact', {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(data)

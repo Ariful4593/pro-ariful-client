@@ -6,16 +6,16 @@ import nature from '../../../image/filter/nature.jpg';
 import creativeAgency from '../../../image/filter/logo192.png';
 import volunteerLogo from '../../../image/filter/volunteerLogo.PNG';
 import travelGuru from '../../../image/filter/travelGuru.PNG';
-import people1 from '../../../image/filter/people1.jpg';
+import doctorPortal from '../../../image/filter/doctor-portal.PNG';
 import './RecentWork.css';
 import { Link } from 'react-router-dom';
 const fakeData = [
     { name: 'Creative Agency', pic: creativeAgency, id: 1, type: 'portfolio', link: 'https://creative-agencys.web.app/' },
     { name: 'Volunteer Network', pic: volunteerLogo, id: 2, type: 'portfolio', link: 'https://volunteer-networkss.web.app/' },
     { name: 'Travel Guru', pic: travelGuru, id: 3, type: 'portfolio', link: 'http://travel-guru-web.web.app/' },
-    { name: 'Doctors Portal', pic: people1, id: 4, type: 'selim' },
+    { name: 'Doctors Portal', pic: doctorPortal, id: 4, type: 'portfolio', link: 'https://doctor-portalss.web.app/' },
     { name: 'Creative Agency', pic: lights, id: 5, type: 'arif' },
-    { name: 'Creative Agency', pic: nature, id: 6, type: 'portfolio' },
+    { name: 'Creative Agency', pic: nature, id: 6, type: 'arif' },
 ]
 
 const RecentWork = () => {

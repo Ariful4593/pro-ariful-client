@@ -9,6 +9,7 @@ import Home from './component/Home/Home/Home';
 import ContactPage from './component/Home/Contact/ContactPage';
 import BlogPage from './component/Home/Blog/BlogPage';
 import Project from './component/Home/Project/Project';
+import ServicesPage from './component/Home/Services/ServicesPage';
 function App() {
   return (
     <Router>
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path="/project">
           <Project></Project>
+        </Route>
+        <Route path="/servicePage">
+          <ServicesPage></ServicesPage>
         </Route>
       </Switch>
     </Router>

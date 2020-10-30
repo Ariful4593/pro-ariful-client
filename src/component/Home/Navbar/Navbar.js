@@ -5,7 +5,9 @@ const Navbar = () => {
   return (
     <div className="row">
       <nav className="navbar navbar-expand-lg navbar-light fixed-top" style={{ background: '#fff' }}>
-        <a className="navbar-brand h1" href="#">Arif</a>
+        <Link to="/" className="navbar-brand h1">
+          Arif
+        </Link>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -17,20 +19,23 @@ const Navbar = () => {
               </Link>
 
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link font-weight-bold" href="#About">About</a>
-            </li>
+            </li> */}
             <li className="nav-item">
-              <a className="nav-link font-weight-bold" href="#Services">Services</a>
+              <Link to='servicePage' className="nav-link font-weight-bold">
+                Services
+              </Link>
+
             </li>
             <li className="nav-item">
               <Link to='project' className="nav-link font-weight-bold">
                 Project
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <a className="nav-link font-weight-bold" href="#Client">Client</a>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to='blog' className="nav-link font-weight-bold">
                 Blog
