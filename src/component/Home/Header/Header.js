@@ -7,26 +7,7 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div id="particles-js" className="head-body">
-            {/* <Particles
-                params={{
-                    "particles": {
-                        "number": {
-                            "value": 50
-                        },
-                        "size": {
-                            "value": 3
-                        }
-                    },
-                    "interactivity": {
-                        "events": {
-                            "onhover": {
-                                "enable": true,
-                                "mode": "repulse"
-                            }
-                        }
-                    }
-                }} /> */}
+        <div className="head-body">
             <Navbar></Navbar>
             <HeaderMain></HeaderMain>
         </div>

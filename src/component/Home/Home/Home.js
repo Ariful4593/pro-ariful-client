@@ -9,19 +9,20 @@ import Testimonial from '../Testimonial/Testimonial';
 import Blog from '../Blog/Blog';
 import Contact from '../Contact/Contact';
 import Footer from '../Footer/Footer';
+import './Home.css';
 const Home = () => {
     return (
-        <div>
+        <div className="home">
             <Header></Header>
             <About></About>
             <MakeBeuty></MakeBeuty>
             <Services></Services>
             <HireMe></HireMe>
             <RecentWork></RecentWork>
-            <Testimonial></Testimonial>
+            {/* <Testimonial></Testimonial> */}
             <Blog></Blog>
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

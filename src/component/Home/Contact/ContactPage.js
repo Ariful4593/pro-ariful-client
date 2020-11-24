@@ -8,7 +8,7 @@ const ContactPage = () => {
         <div>
             <Navbar></Navbar>
             <Contact></Contact>
-            <Footer></Footer>
+            {/* <Footer></Footer> */}
         </div>
     );
 };

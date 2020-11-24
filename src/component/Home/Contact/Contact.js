@@ -3,6 +3,7 @@ import './Contact.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarker, faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { useForm } from "react-hook-form";
+import Footer from '../Footer/Footer';
 const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
@@ -67,8 +68,9 @@ const Contact = () => {
                     </div>
 
                 </div>
+                <Footer></Footer>
             </div>
-
+            
         </section>
     );
 };

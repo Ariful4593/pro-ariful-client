@@ -10,9 +10,13 @@ import ContactPage from './component/Home/Contact/ContactPage';
 import BlogPage from './component/Home/Blog/BlogPage';
 import Project from './component/Home/Project/Project';
 import ServicesPage from './component/Home/Services/ServicesPage';
+import ScrollToTop from "react-scroll-to-top";
+
 function App() {
   return (
     <Router>
+      <ScrollToTop smooth color="#6f00ff" />
+
       <Switch>
         <Route exact path="/">
           <Home></Home>

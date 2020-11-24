@@ -2,10 +2,10 @@ import React from 'react';
 import Footer from '../Footer/Footer';
 import Navbar from '../Navbar/Navbar';
 import Services from './Services';
-
+import './ServicePage.css'
 const ServicesPage = () => {
     return (
-        <div>
+        <div className="servicePage">
             <Navbar></Navbar>
             <Services></Services>
             <Footer></Footer>

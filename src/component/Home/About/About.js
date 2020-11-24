@@ -1,38 +1,37 @@
 import React from 'react';
 import photo1 from '../../../image/me2.png'
-import cv from '../../../image/Ariful-resume.pdf'
+import cv from '../../../image/Ariful_Islam.pdf'
 import { Link } from 'react-router-dom';
+import Fade from 'react-reveal/Fade';
+import './About.css';
 const About = () => {
     return (
         <div className="container mt-4">
-            <h6 className="text-center">WHO AM I</h6>
-            <h2 className="text-center">About Me</h2>
+            <h6 className="text-center text-light">WHO AM I</h6>
+            <h2 className="text-center text-light">About Me</h2>
             <h2 className="text-center text-primary">|</h2>
-            <div className="row d-flex align-items-center">
-                <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-                    <img className="w-100" src={photo1} alt="" />
-                </div>
-                <div className="col-12 col-md-6 col-lg-6 col-xl-6">
-                    <h2>Hello</h2>
-                    <p className="text-left">I’m <strong className="text-muted">Ariful Islam</strong>  . I am a Web Developer, and I'm very passionate and dedicated to my work. With 3 years experience as a professional Web Developer, I have acquired the skills and knowledge necessary to make your project a success.</p>
-                    <div className="row mt-5">
-                        <div className="col-md-6">
-                            <h5>Name: Ariful Islam</h5>
-                            <h5>Age: 23</h5>
-                        </div>
-                        <div className="col-md-6">
-                            <h5>Address: Bangladesh</h5>
-                            <h5>Phone: +880-1830134593</h5>
-                        </div>
-                    </div>
-                    <a href={cv} download>
-                        <button type="button" className="btn btn-primary bg-primary mt-5">Download CV</button></a>
-                    <Link to='contact'>
-                        <button type="button" className="btn btn-secondary bg-primary mt-5">Hire Me</button>
-                    </Link>
 
-                </div>
+            <div className="row d-flex align-items-center">
+                <Fade bottom>
+                    <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <img className="w-100" src={photo1} alt="" />
+                    </div>
+                    <div className="col-12 col-md-6 col-lg-6 col-xl-6">
+                        <h2 className="text-light">Hi</h2>
+                        <p className="text-left text-light">I’m <strong className="">Ariful Islam</strong>  . I am from Chittagong, I am Computer Science & Technology diploma student. I am an innovative front end developer with 2 years+ experience managing all aspects of the development process for small to medium size companies. I am passionate about long term value for our customer. My main strength is I have a positive attitude and my weakness is I don't feel comfortable until I complete my work in a given time.  </p>
+
+                        {/* <a href={cv} download>
+                        <button type="button" className="btn btn-primary bg-primary mt-5 text-light">Download CV</button>
+                        
+                        </a> */}
+                        <a href={cv} download className="hire-me">Download CV</a>
+                        <Link to="contact" className="hire-me mt-2 sm-mt-0 ml-2 ">Hire Me</Link>
+
+                    </div>
+                </Fade>
             </div>
+
+
         </div>
     );
 };
