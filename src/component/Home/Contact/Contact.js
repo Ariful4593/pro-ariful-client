@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faMapMarker, faMobile, faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { useForm } from "react-hook-form";
 import Footer from '../Footer/Footer';
+import { useLocation } from 'react-router-dom';
 const Contact = () => {
     const { register, handleSubmit, errors } = useForm();
     const onSubmit = data => {
@@ -14,6 +15,9 @@ const Contact = () => {
         })
         alert("Your order submitted")
     };
+
+    let location = useLocation();
+    console.log(location.pathname)
 
     return (
         <section className="d-flex align-items-center mt-5 parallax3">

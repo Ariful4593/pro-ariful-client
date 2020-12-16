@@ -4,7 +4,6 @@ import img2 from '../../../image/my-blog/master-javascript.jpeg';
 import img3 from '../../../image/my-blog/begginer-guide.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 const blogData = [
@@ -28,7 +27,7 @@ const Blog = () => {
                   <Fade bottom>
                     <img src={item.img} className="card-img-top h-50" alt="..." />
                     <div className="card-body">
-                      <a href={item.linkTo} target="_blank">
+                      <a href={item.linkTo} target="_blank" rel='noreferrer'>
                         <h5 className="card-title">{item.title}</h5>
                         <p className="card-text text-left">{item.uploadedTime}</p>
                         <p className="mt-5 text-left">{item.details}</p>
@@ -36,7 +35,7 @@ const Blog = () => {
 
                     </div>
                     <div className="card-footer">
-                      <small className="text-muted font-weight-bold"><a href="https://www.facebook.com/ArifulislamNationalInstitute/" target="_blank"><FontAwesomeIcon icon={faUser} /> {item.name}</a></small>
+                      <small className="text-muted font-weight-bold"><a href="https://www.facebook.com/ArifulislamNationalInstitute/" target="_blank" rel='noreferrer'><FontAwesomeIcon icon={faUser} /> {item.name}</a></small>
                     </div>
                   </Fade>
                 </div>

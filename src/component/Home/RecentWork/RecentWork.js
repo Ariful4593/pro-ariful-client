@@ -1,8 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Portfolio from '../Portfolio/Portfolio';
-// import mountains from '../../../image/filter/mountains.jpg';
-import lights from '../../../image/filter/lights.jpg';
-import nature from '../../../image/filter/nature.jpg';
 import creativeAgency from '../../../image/filter/logo192.png';
 import volunteerLogo from '../../../image/filter/volunteerLogo.PNG';
 import travelGuru from '../../../image/filter/travelGuru.PNG';
@@ -10,7 +6,6 @@ import doctorPortal from '../../../image/filter/doctor-portal.PNG';
 import athena from '../../../image/filter/athena-design.PNG';
 import redOnion from '../../../image/filter/red-onion.PNG'
 import './RecentWork.css';
-import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
 const fakeData = [

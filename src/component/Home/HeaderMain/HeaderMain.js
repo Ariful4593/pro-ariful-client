@@ -17,11 +17,13 @@ const HeaderMain = () => {
                         <span className="typeWritter">
                             <Typical
                                 steps={[
-                                    "React.js",
+                                    "React JS",
                                     2000,
                                     "Problem Solving",
                                     2500,
-                                    "Node.js",
+                                    "Node JS",
+                                    3000,
+                                    "Express JS",
                                     3000,
                                     "MongoDB",
                                     2000,
@@ -38,7 +40,7 @@ const HeaderMain = () => {
                         </span>
                     </h5>
                     <div className="hireme-div">
-                        <Link to="contact"><a href="" className="hire-me">Hire Me</a></Link>
+                        <Link to="contact" className="hire-me">Hire Me</Link>
                     
                     </div>
                     

@@ -28,8 +28,7 @@ const MakeBeuty = () => {
                 <div className="col-md-6">
                     <Fade bottom>
                         <h2 className="text-light">Make beauty Things With Passion.</h2>
-                        <p className="text-left text-light">I designer and developer services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through the bold interface.</p>
-                        <button type="button" className="btn btn-primary mb-2">Read More</button>
+                        <p className="text-left text-light">I am a designer and developer services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores. My passion is to develop digital user experiences through the bold interface.</p>
                     </Fade>
 
                 </div>
